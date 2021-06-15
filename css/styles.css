@@ -162,8 +162,11 @@ h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
     color: #195690;
     text-decoration: underline;
 }
+.w-clear {
+    color: #4D9BD1!important;
+}
 span.w-clear {
-    color: #4D9BD1;
+    color: #195690;
 }
 
 .meet-us-area:hover .meet-us-item {
