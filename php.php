@@ -673,7 +673,7 @@ if (isset($_SESSION["s_mail"])) {
                                                                     </thead>
                                                                 </table>
                                                             </div>
-                                                            <a class="btn btn-secondary" data-toggle="modal" data-target="#modal-news-bulk">Evniar para todos</a>
+                                                            <a class="btn btn-secondary" data-toggle="modal" data-target="#modal-news-bulk">Enviar para todos</a>
                                                         </div>
                                                     </div>
                                                 </div>

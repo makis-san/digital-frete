@@ -21,6 +21,10 @@
     color: var(--bs-primary);
 }
 
+.logo {
+    width: auto;
+    height: 44px;
+}
 .logistic-type > i { display: block; 
     transition: all 0.25s ease;}
 
@@ -124,6 +128,20 @@
         margin-top: 20px;
     }
 }
+.gray_image {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    transition: all 0.25s;
+  }
+  
+  /* Disable grayscale on hover */
+  .gray_image:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    transition: all 0.25s;
+
+  }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     outline: 0;
 }
@@ -167,6 +185,14 @@ h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
 }
 span.w-clear {
     color: #195690;
+}
+
+#simulacao {
+    padding-top: 0;
+}
+
+.meet-us-area {
+    padding-top: 5em;
 }
 
 .meet-us-area:hover .meet-us-item {
